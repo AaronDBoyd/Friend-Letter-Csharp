@@ -17,6 +17,7 @@ namespace FriendLetter.Controllers
     { 
       LetterVariable myLetterVariable = new LetterVariable();
       myLetterVariable.Recipient = "Lina";
+      myLetterVariable.Sender = "Zara";
       return View(myLetterVariable);
     }
   }
