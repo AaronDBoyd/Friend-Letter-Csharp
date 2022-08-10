@@ -25,6 +25,8 @@ namespace FriendLetter
 
     public void Configure(IApplicationBuilder app)
     {
+      app.UseDeveloperExceptionPage(); //provides detailed error message in console
+
       app.UseRouting();
 
       app.UseEndpoints(routes =>
